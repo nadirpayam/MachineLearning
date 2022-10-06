@@ -21,3 +21,17 @@ print(boy)
 
 boykilo=veriler[['boy','kilo']]
 print(boykilo)
+
+#kısaca oop'ye değinelim
+
+class insan:
+    boy = 180
+    def kosmak(self,b): #paramatreyi ilave olarak alıyor self ile
+        return b + 10
+    
+ali = insan()
+print(ali.boy)    
+print(ali.kosmak(90))
+
+l = [1,2,3] #liste
+
